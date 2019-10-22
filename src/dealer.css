@@ -1,0 +1,47 @@
+.secondCard{
+    position: absolute;
+    border-radius: 10px;
+    width: 30px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -20px;
+    display: inline-block;
+
+    background-color: white;
+
+    padding: 10px 10px 10px 10px;
+}
+
+.revealAllCards{
+    width: 30px;
+    height: 40px;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+    display: inline-block;
+
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.firstCard{
+    border-radius: 10px;
+    width: 30px;
+    height: 40px;
+    border: 3px solid black;
+    font-size: 20px;
+
+    background-color: grey;
+    font-size: 0px;
+    margin-left: -40px;
+
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+

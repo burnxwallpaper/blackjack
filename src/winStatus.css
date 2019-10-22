@@ -1,0 +1,8 @@
+.winStatus{
+    position: absolute;
+    text-align: center;
+    left:43%;
+    width: 200px;
+    height: 23px;
+    background-color: red;
+  }

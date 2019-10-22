@@ -1,0 +1,109 @@
+.gambleDesk {
+  display:grid;
+  grid-template-columns: 1000px;
+  grid-template-rows: 90px 70px 130px 270px 140px 160px;
+  grid-template-areas: 
+  "Head"
+  "Emptyline"
+  "dealer"
+  "player"
+  "Button"
+  "Bottom";
+  margin: 0 500px 0 400px;
+}
+.headerArea{
+  grid-area: Head;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.dealerSign{
+  grid-area: Emptyline;
+  text-align: center;
+  font-size: 40px; 
+}
+
+.rules{
+  position: absolute;
+  float: left;
+}
+
+.dealerArea {
+  grid-area: dealer;
+  background-color: rgb(4, 247, 77);
+  border-left: 10px solid rgb(114, 66, 4) ;
+  border-right: 10px solid rgb(114, 66, 4) ;
+  border-top: 10px solid rgb(114, 66, 4) ;
+}
+
+.playerArea {
+  grid-area: player;
+  display:grid;
+  background-color: rgb(4, 247, 77);
+  border-radius: 0px 0px 600px 600px;
+  border-bottom: 10px solid rgb(114, 66, 4) ;
+  border-left: 10px solid rgb(114, 66, 4) ;
+  border-right: 10px solid rgb(114, 66, 4) ;
+  grid-template-rows: 40% 60%;
+}
+
+.endGameState{
+  display:grid;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.winState{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.playerCardsArea{
+  display:grid;
+  grid-row: 2/3;
+  display: inline-block;
+
+  text-align: center;
+}
+
+.dealerCardsArea{
+  margin: 30px 200px 200px 200px;
+  text-align: center;
+}
+
+.play{
+  text-align: center;
+  width:100px;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.playerSign{
+  grid-area: Button;
+  text-align: center;
+  font-size: 40px;
+}
+
+#button{
+  font-size: 40px;
+}
+
+.controlPanel{
+  background-color: gray;
+  grid-area: Bottom;
+  border-radius: 1rem 1rem 1rem 1rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.deck{
+  display: inline;
+  padding: 3px;
+}
+
+
+
+
